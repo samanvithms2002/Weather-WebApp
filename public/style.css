@@ -25,6 +25,7 @@
     max-width: 400px;
     margin: 50px auto;
     background: #12947f;
+    
     border-radius: 15px;
     box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
     text-align: center;
@@ -41,7 +42,7 @@
      /* background-image: url("https://cdn5.f-cdn.com/contestentries/1476645/3722903/5c790acfaed94_thumb900.jpg"); */
     background-image:-webkit-linear-gradient(65deg,#e71414 50%, #f17808 50%); ;
      background-repeat: no-repeat;
-     height: 100vh;
+     background-size: auto;
 
      /* Center and scale the image nicely */
      background-position: center;

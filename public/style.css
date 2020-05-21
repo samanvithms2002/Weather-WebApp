@@ -267,12 +267,13 @@ img
 .max
 {
   font-size: 50px;
+  color: #2c003e;
 
 }
 .min
 {
   font-size: 30px;
-  color: rgb(104, 27, 238);
+  color: rgb(70, 15, 70);
 }
 .in
 {

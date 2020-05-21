@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" class="temp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <head>
+<body >
+<div class="container top">
+   
+</div>
+    
+    <div class="container">
+    
+    
+
+<div class="box one" >
+   <h1 id="heading"> <%= place %>
+<br>
+<span class="today">Now</span> 
+</h1>
+    <img src="<%=image%>" alt="" width="100px" height="100px">
+    <p>
+        <img src="" alt="" height="50px" width="50px"> 
+         <span class="text"><%=text%></span>
+         </p>
+    
+    <h1 class="celcius"><%= celcius%> &#8451  
+   
+</h1> 
+    <hr>
+    <div class="container">
+        <div class="row">
+            <p class="feels">
+                Feels Like 
+                <br>
+                <span class="feel"><%=feel%> &#8451  </span>
+                
+               </p>
+           </div>
+          <div class="row">
+            <p>
+                <img src="https://static.thenounproject.com/png/84380-200.png" alt="" height="50px" width="50px">
+                <br>
+                <%=precipitation%>
+                
+            </p>
+          </div> 
+        
+    </div>
+   
+
+   
+</div>
+
+
+
+</div>
+<div class="container">
+    <div class="col">
+        <div class="box">
+            <span id="heading date" style="font-size: 25px;"><%= date[0]%>
+                <br>
+                <span class="bold" style="color: #00005c;">Today</span>
+                
+            
+            </span>
+            <br>
+            <img src="<%=icons[0]%>" alt="">
+            <br>
+            <span class="bold"><%=info[0]%></span>
+            <br>
+            <span class="celcius"><span class="max"><%=maxtemp[0]%></span>/<span class="min"><%=mintemp[0]%></span> <span style="font-size: 30px;">&#8451 </span>
+        </span>
+            <br>
+            <br>
+            <span class="rain bold">Chance Of Rain</span>
+            <br>
+            <br>
+            <img src="https://static.thenounproject.com/png/84380-200.png" alt="" height="50px" width="50px">
+            <br>
+        
+             <%=rain[0]%>
+        </div>
+       
+    </div>
+    <div class="col">
+        <div class="box">
+           <span id="heading date" style="font-size: 25px;"><%= date[1]%>
+        <br>
+        <span class="bold"style="color: #00005c;">Tomorrow</span> 
+        </span> 
+            <br>
+            <img src="<%=icons[1]%>" alt="">
+            <br>
+            <span class="bold"><%=info[1]%></span>
+            <br>
+            <span class="celcius"><span><%=maxtemp[1]%></span>/<span class="min"><%=mintemp[1]%></span> <span style="font-size: 30px;">&#8451 </span>
+        </span>
+            <br>
+            <br>
+            <span class="rain bold">Chance Of Rain</span>
+            <br>
+            <br>
+            <img src="https://static.thenounproject.com/png/84380-200.png" alt="" height="50px" width="50px">
+                <br>
+            <%=rain[1]%>
+        </div>
+    </div>
+    <div class="col">
+        <div class="box">
+            <span id="heading date " style="font-size: 25px;"><%= date[2]%>
+            <br>
+           <span class="bold" style="color: #00005c;">Day After</span> 
+            </span>
+            <br>
+            <img src="<%=icons[2]%>" alt="">
+            <br>
+           <span class="bold"><%=info[2]%></span> 
+            <br>
+            <span class="celcius"><span class="max"><%=maxtemp[2]%></span>/<span class="min"><%=mintemp[2]%></span> <span style="font-size: 30px;">&#8451 </span>
+        
+        </span>
+            <br>
+            <br>
+            <span class="rain bold">Chance Of Rain</span>
+            <br>
+            <br>
+            <img src="https://static.thenounproject.com/png/84380-200.png" alt="" height="50px" width="50px">
+            <br>
+            <%=rain[2]%>
+        </div>
+    </div>
+    
+</div>
+<br>
+<div class="form">
+    <form action="/" method="POST">
+           <input type="text" name="city" placeholder="Check Another City" autocomplete="off">
+           <br>
+           <button type="submit" name="button">Check</button>
+    </form>
+   </div>
+    
+    
+    
+</body>
+</html>

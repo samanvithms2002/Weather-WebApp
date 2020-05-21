@@ -41,7 +41,7 @@
      /* background-image: url("https://cdn5.f-cdn.com/contestentries/1476645/3722903/5c790acfaed94_thumb900.jpg"); */
     background-image:-webkit-linear-gradient(65deg,#e71414 50%, #f17808 50%); ;
      background-repeat: no-repeat;
-     height: 200%;
+     height: 100vh;
 
      /* Center and scale the image nicely */
      background-position: center;

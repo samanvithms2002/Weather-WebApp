@@ -74,8 +74,8 @@ app.post("/",function(req,res){
 });
 
 
-app.listen(3000,function(){
+app.listen(process.env.PORT||3000,function(){
     console.log("server started on port 3000");
 });
 
-//API key: b2e0a492ae754235a8d175234201905
+

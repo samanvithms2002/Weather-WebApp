@@ -126,7 +126,7 @@
   
   ::placeholder {
     color: rgb(112, 91, 126);
-    opacity: 0.5;
+    opacity: 1;
   }
   .temp button:hover{
 

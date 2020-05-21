@@ -1,13 +1,14 @@
-
-
+body{
+  height: 100%;
+}
   .box {
     max-width: 400px;
     margin: 50px auto;
     margin-top: 20px;
     background-image: -webkit-linear-gradient(90deg,#ffa372 40%,#d1682f 60%);
    padding: 10px 10px;
-    border: 2px solid #ea9085;
-    border-color: #ea9085;
+    border: 2px solid #f7e79f;
+    border-color: #f5dea0;
     border-radius: 5px;
     box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
     text-align: center;

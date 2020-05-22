@@ -45,7 +45,8 @@
 </div>
 
 
-    
+    <div class="boxer">
+
         <div class="col  large medium small float">
             <span id="heading date" style="font-size: 25px;"><%= date[0]%>
                <br>
@@ -57,9 +58,7 @@
             <span class="bold"><%=info[0]%></span>
             <br>
             <span class="celcius">
-                <span class="max"><%=maxtemp[0]%></span>/
-                <span class="min"><%=mintemp[0]%></span> 
-                <span style="font-size: 30px;">&#8451</span>
+                <span class="max"><%=maxtemp[0]%></span>/<span class="min"><%=mintemp[0]%></span> <span style="font-size: 30px;">&#8451</span>
             </span>
             <br>
             <br>
@@ -86,9 +85,7 @@
             <span class="bold"><%=info[1]%></span>
             <br>
             <span class="celcius">
-                <span class="max"><%=maxtemp[1]%></span>/
-                <span class="min"><%=mintemp[1]%></span>
-                <span style="font-size: 30px;">&#8451 </span>
+                <span class="max"><%=maxtemp[1]%></span>/<span class="min"><%=mintemp[1]%></span> <span style="font-size: 30px;">&#8451 </span>
             </span>
             <br>
             <br>
@@ -115,9 +112,7 @@
             <span class="bold"><%=info[2]%></span> 
             <br>
             <span class="celcius">
-                <span class="max"><%=maxtemp[2]%></span>/
-                <span class="min"><%=mintemp[2]%></span>
-                 <span style="font-size: 30px;">&#8451</span>
+                <span class="max"><%=maxtemp[2]%></span>/<span class="min"><%=mintemp[2]%></span> <span style="font-size: 30px;">&#8451</span>
         
              </span>
             <br>
@@ -130,17 +125,19 @@
             <%=rain[2]%>
         </div>
    
-    
+    </div>  
 
 <br>
 
-<div class="form large medium small new">
+
     <form action="/" method="POST">
-           <input type="text" name="city" placeholder="Check Another City" autocomplete="off">
+        <div class="form large medium small ">
+           <input type="text" name="city" placeholder="City " autocomplete="off" class="large medium small ">
            <br>
            <button type="submit" name="button">Check</button>
+        </div>   
     </form>
-</div>
+
     
 </body>
 </html>

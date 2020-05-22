@@ -1,7 +1,7 @@
 
   .box {
     max-width: 400px;
-    margin: 50px auto;
+    margin:  50px auto;
     margin-top: 20px;
     background-image: -webkit-linear-gradient(90deg,#ffa372 40%,#d1682f 60%);
    padding: 10px 10px;
@@ -12,6 +12,13 @@
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
+  }
+  .boxer
+  {
+    margin:  50px auto;
+    margin-top: 20px;
+    padding: 10px 10px;
+    text-align: center;
   }
  hr
  {
@@ -38,30 +45,27 @@
      color: rgb(88, 24, 148);
  }
  .mainPage{
-     /* background-image: url("https://cdn5.f-cdn.com/contestentries/1476645/3722903/5c790acfaed94_thumb900.jpg"); */
-    background-image:-webkit-linear-gradient(65deg,#e71414 50%, #f17808 50%); ;
-     background-repeat: no-repeat;
-     background-size: auto;
+   
+     background: -webkit-linear-gradient(65deg,#e71414 50%, #f17808 50%) no-repeat center center fixed ;
 
-     /* Center and scale the image nicely */
+     
      background-position: center;
     
-     /* background-size: cover; */
+    
      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     
+     text-align: center;
+     display: block;
     }
  .temp
  {
-     /* background-image: url("https://media.boingboing.net/wp-content/uploads/2018/05/cool-background1.png"); */
-     background-image: -webkit-linear-gradient(80deg,#2c003e 50%,#512b58 50%);
-     background-repeat: no-repeat;
-     height: 100%;
+     
+     background: -webkit-linear-gradient(80deg,#2c003e 50%,#512b58 50%) no-repeat center center fixed;
+     
+     
      
 
      /* Center and scale the image nicely */
-     background-position: center;
     
-     background-size: cover;
      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
  }
@@ -113,11 +117,18 @@
     background: transparent;
     font-size: 20px;
     font-weight: 200;
-    width: 313px;
+    /* width: 313px; */
     color: white;
-    margin-top: 20px;
-    margin-bottom: 5px;
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
   }
+  .down
+  {
+   
+    text-align: center;
+    display: inline-block;
+  }
+  
   
   input[type="text"]:focus {
     outline: none;
@@ -141,7 +152,7 @@
     background: transparent;
     font-size: 20px;
     font-weight: 200;
-    width: 313px;
+    
     color: rgb(218, 255, 250);
   }
   
@@ -186,14 +197,14 @@ button:hover{
 }
 .col
 {
-  margin: 50px auto;
-  margin-top: 20px;
+  margin:   50px 50px 50px 50px;
+ 
   background-image: -webkit-linear-gradient(90deg,#ffa372 40%,#d1682f 60%);
   padding: 10px 10px;
   border: 2px solid #ea9085;
   border-color: #ea9085;
   border-radius: 5px;
-  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3); */
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
@@ -223,18 +234,20 @@ img
 {
     /* width: 500px; */
     text-align: center;
-    margin: 20px auto;
+    margin: 50px;
+
+    padding: 10px;
    
 }
-.top
+/* .top
 {
     text-align: center;
     max-width: 400px;
     margin: 50px 470px;
     margin-top: 20px;
-}
+} */
 .one{
-    width:30em;
+    /* width:50vh; */
     background-image: -webkit-linear-gradient(270deg,#f1ebbb 40%,#e9da67 60%);
    /* background-color:  #f1ebbb; */
 }
@@ -285,7 +298,8 @@ img
   
 }
 
-@media(max-width:1280px){
+
+@media(max-width:2400px){
   .large  
   {
     
